@@ -40,3 +40,16 @@ Modified the role definitions in `AGENTS.md` and `.github/copilot-instructions.m
 
 ## Suggested PR title
 `Chore: Align agent roles and publication workflow`
+
+## Correction
+* **Starting SHA**: `865fb07be1239e117b4cecdd02998c1c5739b8ea`
+* **Reason for the correction**: Resolve remaining role contradictions regarding committing and pushing, and clarify historical claims in the Sprint 0 Copilot review.
+* **Exact files modified**: `AGENTS.md`, `docs/reviews/SPRINT_0_COPILOT_REVIEW.md`, `docs/handoffs/SPRINT_0_WORKFLOW_ALIGNMENT_ANTIGRAVITY.md`
+* **Exact verification command and exit code**: `git diff --check`, exit code `0`
+* **Confirmation that the Sprint 1 stash remains intact**: Confirmed. `stash@{0}` contains the preserved Sprint 1 work.
+* **Authorized staging list for this correction**:
+  1. `AGENTS.md`
+  2. `docs/reviews/SPRINT_0_COPILOT_REVIEW.md`
+  3. `docs/handoffs/SPRINT_0_WORKFLOW_ALIGNMENT_ANTIGRAVITY.md`
+* **Suggested commit**: `docs(workflow): resolve remaining role contradictions`
+* **Confirmation that Antigravity did not commit or push**: Confirmed. No commit or push was performed.
