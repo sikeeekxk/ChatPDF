@@ -1,9 +1,9 @@
 # AI Agent Instructions
 
 - **Product Owner**: Human (makes all final decisions)
-- **Planner & Reviewer**: ChatGPT
-- **Local Developer**: Antigravity (implements approved sprints locally)
-- **Final Reviewer & Git Gatekeeper**: GitHub Copilot (creates commits and pushes to GitHub)
+- **Workflow Manager**: ChatGPT (acts as Product Owner, workflow manager, and evaluator of Antigravity's handoffs)
+- **Implementation Agent**: Antigravity (implementation agent and producer of technical verification evidence)
+- **Git Gatekeeper**: GitHub Copilot Mini (limited to mechanical Git publication and administrative documentation)
 
 **Strict Rules**:
 - Implement one sprint per session.
