@@ -8,6 +8,8 @@ A responsive web application where users can upload a PDF and ask conversational
 - Selected extracted text is sent through the Azure backend to Gemini.
 - Gemini processes text needed for embeddings and answers.
 - Free-tier provider data-use rules may differ from paid API rules.
+- **Users must not upload confidential or highly sensitive documents to the public demo.**
+- Removing the document clears its browser-stored chunks, embeddings, and chat history.
 
 
 ## Development Setup
