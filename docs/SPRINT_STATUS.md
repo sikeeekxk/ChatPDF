@@ -4,7 +4,10 @@
   - [x] Implemented by Antigravity
   - [x] Copilot review passed
   - [x] Ready for commit and push
-- [ ] Sprint 1 - PDF upload and extraction
+- [x] Sprint 1 - PDF upload and extraction
+  - [x] Implemented by Antigravity
+  - [ ] Copilot review passed
+  - [ ] Ready for commit and push
 - [ ] Sprint 2 - PDF workspace and chat interface
 - [ ] Sprint 3 - Local retrieval data layer
 - [ ] Sprint 4 - Azure Functions and Gemini integration
